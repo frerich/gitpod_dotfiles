@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
 
-echo "Hello, World!" > /tmp/message.txt
+git clone https://github.com/frerich/dotvim $HOME/.vim
 
+cd $HOME/.vim
+./post-clone-setup.sh
